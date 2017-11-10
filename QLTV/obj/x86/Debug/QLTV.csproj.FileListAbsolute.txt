@@ -64,3 +64,23 @@ E:\QLTV\QLTV\obj\x86\Debug\QLTV.TreHen.resources
 E:\QLTV\QLTV\obj\x86\Debug\QLTV.csproj.GenerateResource.Cache
 E:\QLTV\QLTV\obj\x86\Debug\RdlCompile.cache
 E:\QLTV\QLTV\obj\x86\Debug\RdlCompile.compiled
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\bin\Debug\QLTV.exe.config
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.exe
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.pdb
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.csprojResolveAssemblyReference.cache
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.DaMuon.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.DangNhap.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.TrongThuVien.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.DoiMatKhau.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.frmBaoCao.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.Main.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.MuonSach.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.Properties.Resources.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.Sach.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.SinhVien.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.TimKiem.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.TraSach.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.TreHen.resources
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\QLTV.csproj.GenerateResource.Cache
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\RdlCompile.cache
+F:\OneDrive\A - Storage\SENIOR - H\HocTap\C#\quan-ly-thu-vien-csharp\QLTV\obj\x86\Debug\RdlCompile.compiled
