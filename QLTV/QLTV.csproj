@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8594207F-6ED1-4D27-B679-13B16375BE91}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>QLTV</RootNamespace>
+    <AssemblyName>QLTV</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DaMuon.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DaMuon.Designer.cs">
+      <DependentUpon>DaMuon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DangNhap.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DangNhap.Designer.cs">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TrongThuVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TrongThuVien.Designer.cs">
+      <DependentUpon>TrongThuVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DoiMatKhau.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DoiMatKhau.Designer.cs">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBaoCao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBaoCao.Designer.cs">
+      <DependentUpon>frmBaoCao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MuonSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MuonSach.Designer.cs">
+      <DependentUpon>MuonSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Object\Connect.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="DataBaoCao.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataBaoCao.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Sach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Sach.Designer.cs">
+      <DependentUpon>Sach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SinhVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="SinhVien.Designer.cs">
+      <DependentUpon>SinhVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimKiem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TimKiem.Designer.cs">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TraSach.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TraSach.Designer.cs">
+      <DependentUpon>TraSach.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TreHen.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TreHen.Designer.cs">
+      <DependentUpon>TreHen.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="DaMuon.resx">
+      <DependentUpon>DaMuon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DangNhap.resx">
+      <DependentUpon>DangNhap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report\rptDaMuon.rdlc" />
+    <EmbeddedResource Include="TrongThuVien.resx">
+      <DependentUpon>TrongThuVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DoiMatKhau.resx">
+      <DependentUpon>DoiMatKhau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBaoCao.resx">
+      <DependentUpon>frmBaoCao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MuonSach.resx">
+      <DependentUpon>MuonSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="report\rptPhieuMuon.rdlc" />
+    <EmbeddedResource Include="report\rptSach.rdlc" />
+    <EmbeddedResource Include="report\rptSinhVien.rdlc" />
+    <EmbeddedResource Include="report\rptTreHen.rdlc" />
+    <EmbeddedResource Include="Sach.resx">
+      <DependentUpon>Sach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SinhVien.resx">
+      <DependentUpon>SinhVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimKiem.resx">
+      <DependentUpon>TimKiem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TraSach.resx">
+      <DependentUpon>TraSach.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TreHen.resx">
+      <DependentUpon>TreHen.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="DataBaoCao.xsc">
+      <DependentUpon>DataBaoCao.xsd</DependentUpon>
+    </None>
+    <None Include="DataBaoCao.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataBaoCao.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataBaoCao.xss">
+      <DependentUpon>DataBaoCao.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
